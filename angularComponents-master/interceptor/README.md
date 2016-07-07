@@ -1,0 +1,2 @@
+# angularInterceptor
+Standard angular interceptors

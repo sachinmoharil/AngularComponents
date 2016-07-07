@@ -1,0 +1,9 @@
+<form name="myForm" novalidate>
+    <input type="text" class="form-control" id="firstInput" name="firstInput"
+           ng-model="firstInput" required check-value="secondInput"/>
+
+    <input type="text" class="form-control" id="secondInput" name="secondInput"
+           ng-model="secondInput" required/>
+
+    <span class="color:red" ng-show="myForm.firstInput.$error.checkValue">First Input must be higher than second Input</span>
+</form>
